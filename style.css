@@ -1,0 +1,42 @@
+/*ШРИФТ*/
+@font-face {
+    font-family: "Шрифт";
+    font-style: normal;
+    font-weight: 400;
+    src: local("nm2"),
+         url("/fonts/Шрифт.woff2") format("woff2"), /*Путь и названию*/  
+         url("/fonts/Шрифт.woff") format("woff");    /*Путь и названию*/  
+  }
+  body {
+    font-family: "Шрифт", "Arial", sans-serif;
+  }
+
+
+/*Фон сайта*/
+body {   
+background-image: url(images/background.jpg);      /*Путь и название картинки*/   
+background-position: center center;      
+background-repeat: no-repeat;      
+background-attachment: fixed;      
+background-size: cover;      
+background-color: #fcaaff; }  /*цвет фона*/  
+
+/*КАРТИНКА И ТЕКСТ*/
+/* Container holding the image and the text */
+.container {
+    position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/*выравнивание*/
